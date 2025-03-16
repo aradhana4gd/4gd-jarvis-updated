@@ -122,12 +122,12 @@
 		if (logo) {
 			const isDarkMode = document.documentElement.classList.contains('dark');
 
-			if (isDarkMode) {
+			if (false) {
 				const darkImage = new Image();
-				darkImage.src = '/static/favicon-dark.png';
+				darkImage.src = '/static/forgood.png';
 
 				darkImage.onload = () => {
-					logo.src = '/static/favicon-dark.png';
+					logo.src = '/static/forgood.png';
 					logo.style.filter = ''; // Ensure no inversion is applied if favicon-dark.png exists
 				};
 
@@ -181,7 +181,7 @@
 					<img
 						id="logo"
 						crossorigin="anonymous"
-						src="{WEBUI_BASE_URL}/static/splash.png"
+						src="{WEBUI_BASE_URL}/static/logo.png"
 						class=" w-6 rounded-full"
 						alt="logo"
 					/>
@@ -219,7 +219,7 @@
 							<div class="mb-1">
 								<div class=" text-2xl font-medium">
 									{#if $config?.onboarding ?? false}
-										{$i18n.t(`Get started with {{WEBUI_NAME}}`, { WEBUI_NAME: $WEBUI_NAME })}
+										{$i18n.t(`Get started with 4GOOD JARVIS`, { WEBUI_NAME: $WEBUI_NAME })}
 									{:else if mode === 'ldap'}
 										{$i18n.t(`Sign in to {{WEBUI_NAME}} with LDAP`, { WEBUI_NAME: $WEBUI_NAME })}
 									{:else if mode === 'signin'}
@@ -231,7 +231,7 @@
 
 								{#if $config?.onboarding ?? false}
 									<div class=" mt-1 text-xs font-medium text-gray-500">
-										ⓘ {$WEBUI_NAME}
+										ⓘ 4GOOD JARVIS
 										{$i18n.t(
 											'does not make any external connections, and your data stays securely on your locally hosted server.'
 										)}
