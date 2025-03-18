@@ -1,4 +1,4 @@
-### Installing Both Ollama and 4GD JARVIS Using Kustomize
+### Installing Both Ollama and 4GOOD JARVIS Using Kustomize
 
 For cpu-only pod
 
@@ -12,7 +12,7 @@ For gpu-enabled pod
 kubectl apply -k ./kubernetes/manifest
 ```
 
-### Installing Both Ollama and 4GD JARVIS Using Helm
+### Installing Both Ollama and 4GOOD JARVIS Using Helm
 
 Package Helm file first
 

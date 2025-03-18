@@ -2,7 +2,7 @@
 
 Sometimes, its beneficial to host Ollama, separate from the UI, but retain the RAG and RBAC support features shared across users:
 
-# 4GD JARVIS Configuration
+# 4GOOD JARVIS Configuration
 
 ## UI Configuration
 

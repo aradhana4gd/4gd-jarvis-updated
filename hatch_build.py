@@ -10,11 +10,11 @@ from hatchling.builders.hooks.plugin.interface import BuildHookInterface
 class CustomBuildHook(BuildHookInterface):
     def initialize(self, version, build_data):
         super().initialize(version, build_data)
-        stderr.write(">>> Building 4GD JARVIS frontend\n")
+        stderr.write(">>> Building 4GOOD JARVIS frontend\n")
         npm = shutil.which("npm")
         if npm is None:
             raise RuntimeError(
-                "NodeJS `npm` is required for building 4GD JARVIS but it was not found"
+                "NodeJS `npm` is required for building 4GOOD JARVIS but it was not found"
             )
         stderr.write("### npm install\n")
         subprocess.run([npm, "install"], check=True)  # noqa: S603

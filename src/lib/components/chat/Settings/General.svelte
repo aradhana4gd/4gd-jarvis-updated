@@ -216,7 +216,7 @@
 						href="https://github.com/open-webui/open-webui/blob/main/docs/CONTRIBUTING.md#-translations-and-internationalization"
 						target="_blank"
 					>
-						Help us translate 4GD JARVIS!
+						Help us translate 4GOOD JARVIS!
 					</a>
 				</div>
 			{/if}

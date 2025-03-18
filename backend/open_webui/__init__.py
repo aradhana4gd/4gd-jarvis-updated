@@ -17,7 +17,7 @@ def version_callback(value: bool):
     if value:
         from open_webui.env import VERSION
 
-        typer.echo(f"4GD JARVIS version: {VERSION}")
+        typer.echo(f"4GOOD JARVIS version: {VERSION}")
         raise typer.Exit()
 
 

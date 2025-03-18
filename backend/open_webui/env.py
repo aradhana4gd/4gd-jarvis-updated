@@ -106,9 +106,9 @@ for source in log_sources:
 log.setLevel(SRC_LOG_LEVELS["CONFIG"])
 
 
-WEBUI_NAME = os.environ.get("WEBUI_NAME", "4GD JARVIS")
-if WEBUI_NAME != "4GD JARVIS":
-    WEBUI_NAME += " (4GD JARVIS)"
+WEBUI_NAME = os.environ.get("WEBUI_NAME", "4GOOD JARVIS")
+if WEBUI_NAME != "4GOOD JARVIS":
+    WEBUI_NAME += " (4GOOD JARVIS)"
 
 WEBUI_FAVICON_URL = "https://openwebui.com/favicon.png"
 
